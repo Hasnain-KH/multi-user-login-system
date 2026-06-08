@@ -1,0 +1,13 @@
+Branch ==> main
+Branch ==> Develop : jis me ham kaam karenge apni featurs ko develop me maerge karenge.
+Branch ==> Features wali Branches ko ham Develop wali branch me merge karenge.
+
+Aur last me ham Phir Develop wali ko Main branch me merge kardenge .
+
+main
+  ↑
+develop
+  ↑
+feature/login
+feature/dashboard
+feature/admission
