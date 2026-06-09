@@ -94,9 +94,18 @@ body {
 
 /* ----Shahzaib---> */
 
+/* /--disable hasnian container---/ */
+.container {
+  display: none;
+}
+/* -----> */
+
 :root {
   --button-background : rgb(15, 158, 247);
   --button-hover-color : lightskyblue;
+}
+body {
+  background-color:white;
 }
 .content-container
 {
@@ -105,6 +114,11 @@ body {
   background-color: white;
   border-radius: 4px;
   padding:10px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px lightgray;  /**/
 }
 
 .content-container .image-section 
