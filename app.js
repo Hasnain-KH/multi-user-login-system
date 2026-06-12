@@ -2,6 +2,7 @@ let name = document.querySelector("#name");
 let email = document.querySelector("#email");
 let password = document.querySelector("#password");
 let sign_up = document.querySelector("button");
+let login = document.getElementById("login")
 
 sign_up.addEventListener("click", function (e) {
     e.preventDefault();
@@ -15,4 +16,8 @@ sign_up.addEventListener("click", function (e) {
     }).then(() => {
         window.location.href = "./pages/login.html"
     })
+})
+
+login.addEventListener("click", function (e) {
+    console.log(e);
 })
