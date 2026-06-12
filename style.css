@@ -83,3 +83,90 @@ input:focus {
   margin-left: 100px;
   margin-top: 15px;
 }
+
+/* -------> */
+body {
+  display: flex;
+  flex-flow: column;
+  gap:10px;
+}
+
+
+/* ----Shahzaib---> */
+
+/* /--disable hasnian container---/ */
+.container {
+  display: none;
+}
+/* -----> */
+
+:root {
+  --button-background : rgb(15, 158, 247);
+  --button-hover-color : lightskyblue;
+}
+body {
+  background-color:white;
+}
+.content-container
+{
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  border-radius: 4px;
+  padding:10px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px lightgray;  /**/
+}
+
+.content-container .image-section 
+{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 140px;
+}
+.welcome-section
+{
+  text-align: center;
+  padding: 10px;
+  line-height: 38px;
+
+}
+.welcome-section h1  
+{
+color:gray;
+}
+.welcome-section h3
+{
+color:rgb(167, 159, 159);
+}
+.get-started 
+{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-started button 
+{
+  border: none;
+  width: 100px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--button-background);
+}
+.get-started button:hover
+{
+  background-color: var(--button-hover-color);
+}
+
